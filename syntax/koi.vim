@@ -3,7 +3,7 @@ if exists('b:current_syntax') | finish | endif
 " Keywords
 syn keyword koiTodo contained TODO FIXME XXX NOTE
 syn keyword koiDeclKeyword func var struct
-syn keyword koiKeyword if else
+syn keyword koiKeyword if else endif
 syn keyword koiType int float string
 syn keyword koiStatement return
 
